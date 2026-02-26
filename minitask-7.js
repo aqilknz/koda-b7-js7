@@ -5,6 +5,7 @@ const dataHasilUjian = (mapel) => {
     return {total, rataRata};
     
 }
+
 const nilai = {
     "Matematika": 80,
     "BahasaIndonesia": 90,
@@ -13,5 +14,5 @@ const nilai = {
 }
 
 const {total, rataRata} = dataHasilUjian(nilai);
-console.log("total nilai adalah ",total);
-console.log("rata-rata nilai adalah ",rataRata);
+console.log(`total nilai adalah ${total}`);
+console.log(`rata-rata nilai adalah ${rataRata}`);
