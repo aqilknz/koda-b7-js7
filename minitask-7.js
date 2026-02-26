@@ -7,10 +7,10 @@ const dataHasilUjian = (mapel) => {
 }
 
 const nilai = {
-    "Matematika": 80,
-    "BahasaIndonesia": 90,
+    "Matematika": 82,
+    "BahasaIndonesia": 93,
     "BahasaInggris": 85,
-    "IPA": 95
+    "IPA": 91
 }
 
 const {total, rataRata} = dataHasilUjian(nilai);
